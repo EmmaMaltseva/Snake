@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Змейка</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/index.js" defer></script>     
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <div class="info_current-score">Текущий счёт: 0</div>
+      <div class="info_best-score">Ваш рекорд: 0</div>
+    </div>
+    <div class="play">
+
+      <!--Отрисовка графики-->
+      <canvas width="800px" height="600px" class="ground"></canvas>
+
+      <!--Кнопка Играть!-->
+      <div class="play_menu">
+        <div class="play_button">Играть!</div>
+      </div>
+
+      <!--Заставка проигрыша-->
+      <div class="lose">
+        <div class="lose_title">Ваш счёт: 0!</div> 
+        <div class="lose_button">Ещё раз!</div> 
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
